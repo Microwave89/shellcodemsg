@@ -1,0 +1,33 @@
+ shellcodemsg
+
+ Timestamp is 564b1955 (Tue Nov 17 13:11:01 2015)
+
+ Preferred load address is 0000000140000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 000001c8H .text                   CODE
+ 0002:00000000 00000054H .rdata                  DATA
+ 0002:00000054 000000f4H .rdata$zzzdbg           DATA
+ 0002:00000148 00000020H .xdata                  DATA
+ 0002:00000168 00000000H .edata                  DATA
+ 0003:00000000 00000018H .pdata                  DATA
+
+  Address         Publics by Value              Rva+Base               Lib:Object
+
+ 0000:00000000       __guard_flags              0000000000000000     <absolute>
+ 0000:00000000       __guard_fids_count         0000000000000000     <absolute>
+ 0000:00000000       __guard_fids_table         0000000000000000     <absolute>
+ 0001:00000000       mymain                     0000000140001000 f   main.obj
+ 0001:00000068       dispMsg                    0000000140001068 f   main.obj
+ 0001:00000150       syscallStub                0000000140001150     main.obj
+ 0001:00000170       szTitle                    0000000140001170     main.obj
+ 0001:00000190       szText                     0000000140001190     main.obj
+
+ entry point at        0001:00000000
+
+ Static symbols
+
+ 0002:00000148       $unwind$mymain             0000000140002148     main.obj
+ 0002:00000150       $unwind$dispMsg            0000000140002150     main.obj
+ 0003:00000000       $pdata$mymain              0000000140003000     main.obj
+ 0003:0000000c       $pdata$dispMsg             000000014000300c     main.obj
