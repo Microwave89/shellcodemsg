@@ -1,6 +1,11 @@
 # shellcodemsg
 Displaying a "hard error" messagebox without relying on any library
 
+______________________________
+MAJOR ISSUES! See open issues.
+Due to it's "aggressive" nature this particular shellcode cannot be used in conjunction with complex processes.
+______________________________
+
 This project has two goals.
 First one is to show how to best create autonomous shellcode using Visual Studio 2015.
 The second goal refers to a solution that addresses the problem of sending "signs of life" to the programmer
